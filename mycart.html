@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>贝贝网-购物车</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" media="screen">
+		<link rel="stylesheet" href="css/common.min.css" />
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/mycart.js" ></script>
+		<script type="text/javascript" src="js/cookie.min.js" ></script>
+		<link rel="stylesheet" href="css/iconfont.min.css" />
+		<link rel="stylesheet" href="css/mycart.min.css" />		
+	</head>
+	<body>
+		<div class="top-nav">
+			<div class="wrapper">
+				<ul>
+					<li>
+						你好，
+						<a href="login.html">请登录</a>
+						<a class="pink" href="reg.html" target="_blank">&nbsp;免费注册</a>
+					</li>
+					<li class="seg"></li>
+					<li><a href="#">商家入驻</a></li>
+					<li class="seg"></li>
+					<li><a href="#">商家中心</a></li>
+					<li class="seg"></li>
+					<li>
+						<div class="dropdown">
+							<div class="dropdown-default">
+								<span class="iconfont">&#xe601;</span>
+								<a href="#">联系客服</a>
+								<span class="iconfont xjt">&#xe67f;</span>
+							</div>
+						<ul class="dropdown-list">
+							
+							<li><span class="iconfont">&#xe615;</span><a href="#">帮助中心</a></li>
+							
+						</ul>
+						</div>
+						</li>
+					<li class="seg"></li>
+					<li>
+						<div class="dropdown">
+							<div class="dropdown-default">
+								<a href="#">关注</a><span class="iconfont xjt">&#xe67f;</span>
+							</div>
+						<div class="block-fllow">
+							<dl class="wechat">
+								<dd>微信号：beibeiclub</dd>
+								<dt><img src="images/40450807220001_158x158.jpg" title="微信扫一扫" /></dt>
+								<dd>订阅贝贝官方微信</dd>
+							</dl>
+							<dl class="social">
+								<dd>
+									<a href="#" title="关注贝贝新浪微博"><img src="images/weibo_45x45.png"/></a>
+								</dd>
+								<dd>
+									<a href="#" title="关注贝贝QQ空间"><img src="images/qzone_45x45.png"/></a>
+								</dd>
+							</dl>
+							
+						</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="head">
+			<div class="wrapper">
+				<img class="logo" src="images/main_logo5.png" />
+				<img class="slogan" src="images/main-slogan.png" />
+				<div class="nav-cart">
+						<a class="top-cart" href=""><span class="iconfont icon-cart">&#xe600;</span>我的购物车<span class="iconfont">&#xe60e;</span></a>
+						<div class="cart-list">						
+							<ul class="list">
+								<li><span>快去挑选商品吧!</span></li>
+							</ul>						
+							<div class="cart-bottom">
+							<span class="total">小计：<span class="totalPrice">￥0.00</span></span>
+							<a href="#" class="cart-btn">去购物车结算</a>
+						</div>
+							
+						</div>					
+					</div>
+			</div>
+		</div>
+		<div class="main-content">
+			<div class="wrapper">
+				<div class="cart-process">
+					<h1>我的购物车</h1>
+					<i>&nbsp;</i>
+				</div>
+				
+				<div class="cartList">
+					<form class="pure-form">
+						<ul class="list-t">
+							<li class="cb"><input type="checkbox" class="selectAll" />全选</li>
+							<li class="pro">商品</li>
+							<li class="proinfo">商品信息</li>
+							<li class="price">单价（元）</li>
+							<li class="count">数量</li>
+							<li class="totalprice">小计（元）</li>
+							<li class="opr">操作</li>
+						</ul>
+						<div class="listitem">
+						<!--<ul class="item">
+							<li>
+								<div class="brand-name"><input type="checkbox" class="chb" /><a href="#">电话手表</a></div>
+							</li>
+							<li class="info">
+								<div class="cb"><input type="checkbox" class="chb" /></div>
+								<div class="pro">
+									<a class="img" href="#"><img src="images/00273809759911_800x800.jpg!100x100.jpg" /></a>
+									<p class="memo">大家覅偶鞥文化服务IE和覅屋恩回答时间的服务IEu</p>
+								</div>
+								<div class="proinfo">黑的</div>
+								<div class="price"><p class="newprice">35.00</p><p class="old">95.00</p></div>
+								<div class="count">
+									<a class="count" href="javascript:">-</a>
+									<input class="countnum" type="text" readonly="readonly" value="1" />
+									<a class="count" href="javascript:">+</a>
+								</div>
+								<div class="totalprice">730.00</div>
+								<div class="opr"><a href="#">删除</a></div>
+							</li>
+							<li class="total">
+								<span>小计：</span>
+								<div class="totalprice">730.00</div>
+							</li>
+						</ul>	-->
+						</div>
+						<div class="total-bar">
+							<div class="cl"><input type="checkbox" class="selectAll" /><span>全选</span>
+							<a href="javascript:" class="delAll">删除</a>
+							</div>
+							<div class="cr">
+								共有<span>0</span>件商品，以优惠<span>0.00</span>元,总计(不含运费)
+								<span class="totalp">￥0.00</span>
+								<a href="javascript:" class="confirm">确认订单</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>

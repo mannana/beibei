@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>贝贝网-买母婴上贝贝！8000万妈妈信赖的母婴正品特卖商城</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/reg.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.min.css"/>
+		<link rel="stylesheet" href="css/iconfont.min.css" />
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/require.js" data-main = "js/main"></script>
+		<script type="text/javascript" src="js/cookie.min.js" ></script>
+	</head>
+	<body>
+		<div class="r_header">
+			<div class="wrapper">
+				<img class="logo" src="images/main_logo5.png" />
+				<img class="slogan" src="images/slogan.png" />
+			</div>
+		</div>
+		<div class="main_c">
+			<div class="wrapper">
+				<!--左侧广告区-->
+				<div class="advertise">
+					<img src="images/regbg_500x354.png" />
+				</div>
+				<!--右侧输入区-->
+				<div class="ipt_cont">
+					<form action="login.php" method="post" class="f_area">					
+						<div class="area_title">
+							<span>登录贝贝</span>
+							<span class="tologin">
+								<span>还没账号？</span>
+								<a href="reg.html">立即注册</a>
+							</span>
+						</div>
+						<!--手机号-->
+						<div class="input_group">
+							<div class="input">
+								<span class="icon user"></span>
+								<input type="text" class="phone" name="phone" maxlength="20" placeholder="您的手机号/邮箱" />
+							</div>
+							<div class="tip phone_tip"><span class="iconfont">&#xe621;</span>请输入正确的邮箱或手机号</div>
+						</div>
+						<!--密码-->
+						<div class="input_group">
+							<div class="input">
+								<span class="icon lock"></span>
+								<input type="password" class="pwd" name="pwd" maxlength="16" placeholder="密码，6-16位字母、数字或符号" />
+							</div>
+							<div class="tip pwd_tip"><span class="iconfont">&#xe621;</span>请输入6-16位贝贝密码</div>
+						</div>
+						<!--滑动验证-->
+						<div class="input_group">
+							<div class="ln">
+								<div class="btn_silde"><span class="iconfont">&#xe694;</span></div>
+								<div class="nc_bg"></div>
+								<div class="scale_text">请按住滑块，拖动到最右边</div>
+							</div>
+						</div>
+						
+						<!--自动登录-->
+						<div class="input_group">
+							<input type="checkbox" class="autologin" /><span class="auto">自动登录</span>
+							<a href="#" class="forgetpwd">忘记密码</a>
+						</div>
+						<!--注册按钮-->
+						<div class="btn">
+							<a href="javascript:" class="login">登录</a>
+						</div>
+						<div class="ipt-quick">
+							快捷登录方式：
+							<a href="javascript:" class="qqlogin loginicon"></a>
+							<a href="javascript:" class="tblogin loginicon"></a>
+							<a href="javascript:" class="wxlogin loginicon"></a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>
